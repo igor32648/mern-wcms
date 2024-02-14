@@ -15,6 +15,11 @@ const userSchema = new mongoose.Schema({
         type: String,
         required:true,
     },
+    profilePicture: {
+        type: String,
+        default:
+            'https://avatars.githubusercontent.com/u/92551032?v=4',
+      },
     }, {timestamps: true}
 );
 
