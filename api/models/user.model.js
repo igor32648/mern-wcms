@@ -19,8 +19,12 @@ const userSchema = new mongoose.Schema({
         type: String,
         default:
             'https://avatars.githubusercontent.com/u/92551032?v=4',
-      },
-    }, {timestamps: true}
+    },
+    isAdmin: {
+        type: Boolean,
+        default: false,
+    },
+}, {timestamps: true}
 );
 
 const User = mongoose.model('User', userSchema);
