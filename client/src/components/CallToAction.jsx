@@ -1,23 +1,27 @@
 import { Button } from 'flowbite-react';
+import image from '../assets/data.png'
+import { Link } from 'react-router-dom';
 
 export default function CallToAction() {
   return (
     <div className='flex flex-col sm:flex-row p-3 border border-teal-500 justify-center items-center rounded-tl-3xl rounded-br-3xl text-center'>
         <div className="flex-1 justify-center flex flex-col">
             <h2 className='text-2xl'>
-                Want to learn more about JavaScript?
+            Interested in delving deeper into the world of data science?
             </h2>
             <p className='text-gray-500 my-2'>
-                Checkout these resources with 100 JavaScript Projects
+            Explore our blog now for insightful articles on the latest trends and unlock the power of knowledge!
             </p>
             <Button gradientDuoTone='purpleToPink' className='rounded-tl-xl rounded-bl-none'>
-                <a href="https://www.100jsprojects.com" target='_blank' rel='noopener noreferrer'>
-                    100 JavaScript Projects
-                </a>
+                <Link to="https://igorcarlosdev.wordpress.com/" >
+                <p>
+                    Crazy Data Blog
+                </p>
+                </Link>
             </Button>
         </div>
         <div className="p-7 flex-1">
-            <img src="https://bairesdev.mo.cloudinary.net/blog/2023/08/What-Is-JavaScript-Used-For.jpg" />
+            <img src={image} />
         </div>
     </div>
   )
