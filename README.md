@@ -116,9 +116,9 @@ The codebase is divided into two main repositories: `client` for the frontend an
 - **Icons**: Icons are sourced from the React Icons package (Font Awesome), adding visual elements to the user interface and improving usability.
 - **State Management**: Redux Toolkit and Redux Persistor are employed for saving user and theme information, facilitating state management across multiple pages and components. Redux Toolkit simplifies the usage of Redux in complex React applications, while Redux Persistor ensures persistent storage of state data, crucial for maintaining user preferences and data consistency.
 - **Flowbite/React**: A highly dynamic and interactive navbar is created using Flowbite-React, adapting seamlessly to various screen sizes. It also allows users to switch between light and dark themes according to their preferences, enhancing user experience and accessibility. It was also used to create the tables, inputs incredibly easily and incredibly stylish buttons.
+
 ![Captura de tela 2024-02-23 155120](https://github.com/igor32648/mern-wcms/assets/92551032/560efc3e-c70b-4795-8dc9-9fcd6c4507c3)
 ![Captura de tela 2024-02-23 155130](https://github.com/igor32648/mern-wcms/assets/92551032/7062085c-5f57-4ca6-8000-22c170c2cf5b)
-
 ![Captura de tela 2024-02-23 152345](https://github.com/igor32648/mern-wcms/assets/92551032/5a7437fd-05cb-4b76-8e03-8f2e4ca3538a)
 
 - **react-circular-progressbar:** The profile picture and post image upload feature utilizes the react circular progressbar package, offering advantages such as visually appealing circular progress bars with customizable appearance and behavior. This enhances the user experience by providing clear feedback on upload progress, improving overall satisfaction and usability
