@@ -9,9 +9,11 @@ export default function CallToAction() {
             <h2 className='text-2xl'>
             Interested in delving deeper into the world of data science?
             </h2>
-            <p className='text-gray-500 my-2'>
+            <br />
+            <p>
             Explore our blog now for insightful articles on the latest trends and unlock the power of knowledge!
             </p>
+            <br />
             <Button gradientDuoTone='purpleToPink' className='rounded-tl-xl rounded-bl-none'>
                 <Link to="https://igorcarlosdev.wordpress.com/" >
                 <p>
